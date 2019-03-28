@@ -95,7 +95,7 @@
 	  -moz-animation: wawes 7s infinite;
 	  animation: wawes 7s infinite;
 }
-.login > input {
+#id_username, #id_password {
 	  font-family: "Lato", sans-serif;
 	  display: block;
 	  border-radius: 5px;
@@ -107,7 +107,7 @@
 	  margin: 15px -10px;
 	  border: 1px solid black;
 }
-/*.login > button {
+.login > button {
 	  font-family: "Lato", sans-serif;
 	  cursor: pointer;
 	  color: #fff;
@@ -117,7 +117,7 @@
 	  border: 0;
 	  padding: 10px 0;
 	  margin-top: 10px;
-	  margin-left: -5px;
+	  margin-left: -335px;
 	  border-radius: 5px;
 	  background-color: #f45b69;
 	  -webkit-transition: background-color 300ms;
@@ -126,8 +126,11 @@
 }
 .login > button:hover {
   background-color: #f24353;
-}*/
-input[type=submit] {
+}
+form > p > label {
+	display: none;
+}
+/*input[type=submit] {
 	font-family: "Lato", sans-serif;
 	cursor: pointer;
 	color: #fff;
@@ -143,7 +146,7 @@ input[type=submit] {
 	-webkit-transition: background-color 300ms;
 	-moz-transition: background-color 300ms;
 	transition: background-color 300ms;
-}
+}*/
 input[type=submit]:hover {
 	background-color: #f24353;
 }
