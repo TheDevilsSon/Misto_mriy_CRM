@@ -147,6 +147,7 @@ form > p > label {
 	-moz-transition: background-color 300ms;
 	transition: background-color 300ms;
 }*/
+/* comment */
 input[type=submit]:hover {
 	background-color: #f24353;
 }
